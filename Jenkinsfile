@@ -5,7 +5,7 @@ pipeline {
         stage('Build') {
             steps {
 
-                git 'https://github.com/ISTQB-Tester-Training/BDD-Showcase-<Kursbezeichnung>.git'
+                git 'https://github.com/ISTQB-Tester-Training/2022-03-DevOpsAcad-LG20-BDD-Showcase.git'
 
                 sh "mvn compile"
             }
